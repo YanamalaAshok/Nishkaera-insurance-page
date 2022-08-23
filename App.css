@@ -1,0 +1,201 @@
+* {
+  box-sizing: 0px;
+}
+
+body {
+  margin: 0;
+}
+
+.App{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.heading{
+width: 448px;
+height: 54px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+color: #FF6A6A;
+}
+
+.description-title{
+width: 506px;
+height: 59px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+color: #4E4E4E;
+}
+
+.description{
+margin-top: 50px;
+width: 674px;
+height: 100px;
+left: 113px;
+top: 420px;
+font-family: 'Hero';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: #383838;
+}
+
+.div-container{
+  padding: 70px;
+}
+
+.details-section-content{
+  padding: 50px;
+}
+
+.get-started-btn{
+  background-color: #FF6A6A;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 13px;
+  padding: 8px;
+  width: 200px;
+  height: 65px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  border-style: none;
+  margin: 20px;
+}
+
+.learn-more-btn{
+background-color: #ffffff;
+width: 200px;
+height: 64px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #636363;
+border-style: none;
+}
+
+.image{
+  padding: 20px;
+  width: 510px;
+  height: 510px;
+  left: 819px;
+  top: 200px;
+  margin-left: 100px;
+}
+
+.blog-container{
+display: flex;
+flex-direction: row;
+width: 1440px;
+height: 144px;
+left: 0px;
+top: 818px;
+background-color: #F6FFFD;
+margin: 20px;
+}
+
+.images{
+  height: 100px;
+  width: 50vw;
+  margin: 50px;
+}
+
+.middle-section{
+  display: flex;
+  flex-direction: row;
+  
+  margin-top: 100px;
+  padding: 40px;
+}
+
+.benefits-section{
+  font-family: "Inter";
+  padding: 40px;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+.description-titles{
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #4E4E4E;
+  }
+  
+.benefit-details{
+  margin: 30px;
+}
+
+.benefits-details-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  padding: 40px;
+}
+
+.benefits-details-image{
+  height: 150px;
+  width: 150px;
+  border-radius: 90px;
+  background-color: #D3FFF9;
+}
+
+.benefit-details-title{
+  color: #4E4E4E;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.benefit-details-description{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #474747;
+}
+.span-element{
+  font-family: 'Hero';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: #383838;
+}
+.card-description{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  align-items: flex-end;
+  
+}
+
+
+
+.button-1{
+ height: 50px;
+ 
+background: #FF6A6A;
+box-shadow: 11px 8px 22px -1px rgba(0, 0, 0, 0.51);
+border-radius: 6px;
+border-style: none;
+}
+
+.card{
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/ccbpashokrock/image/upload/v1661234998/Rectangle_16_qasfaa.png");
+  background-size: cover;
+  height: 30vh;
+}
